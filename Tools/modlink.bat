@@ -1,0 +1,1 @@
+mklink /J "%appdata%\SpaceEngineers\Mods\%1" "c:\users\jay\source\repos\%1\Content"
