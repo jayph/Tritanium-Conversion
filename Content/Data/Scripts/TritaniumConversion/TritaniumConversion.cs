@@ -21,6 +21,7 @@ namespace JasperGaming.TritaniumConversion
         List<IMySlimBlock> reuse_slim = new List<IMySlimBlock>();
         MyDefinitionId reuse_id;
         MyDefinitionBase reuse_base;
+        private bool debug = false;
 
         public override void Init(MyObjectBuilder_SessionComponent sessionComponent)
         {
@@ -38,12 +39,20 @@ namespace JasperGaming.TritaniumConversion
         {
             if (messageText == "/tritanium")
             {
-                // need to condition this on: single player, creative
-                // need to condition this on identifying a grid being look at
-                convertActive = true;
-
-                MyAPIGateway.Utilities.ShowMessage("", "Tritanium conversion foo");
+                if (!(MyAPIGateway.Session.IsServer && MyAPIGateway.Session.CreativeMode))
+                {
+                    MyAPIGateway.Utilities.ShowMessage("", "Tritanium conversion only works on single-player creative worlds.");
+                }
+                else
+                {
+                    convertActive = true;
+                    //MyAPIGateway.Utilities.ShowMessage("", "Tritanium conversion active");
+                }
                 sendToOthers = false;
+            }
+            else
+            {
+                sendToOthers = true;
             }
         }
 
@@ -63,7 +72,7 @@ namespace JasperGaming.TritaniumConversion
         protected override void UnloadData()
         {
             MyAPIGateway.Utilities.MessageEntered -= Utilities_MessageEntered;
-
+            blockDict = null;
             Instance = null; // important for avoiding this object to remain allocated in memory
         }
 
@@ -95,7 +104,7 @@ namespace JasperGaming.TritaniumConversion
                             reuse_slim.Clear();
                             reuse_slim = grid.GetBlocksInsideSphere(ref sphere);
 
-                            MyAPIGateway.Utilities.ShowMessage("", "grid found, count = " + reuse_slim.Count);
+                            //MyAPIGateway.Utilities.ShowMessage("", "grid found, count = " + reuse_slim.Count);
 
                             stopwatch.Start();
 
@@ -108,6 +117,11 @@ namespace JasperGaming.TritaniumConversion
 
                                 if (newId != null)
                                 {
+                                    if (debug)
+                                    {
+                                        MyAPIGateway.Utilities.ShowMessage("", def + " -> " + newId);
+                                    }
+
                                     bool valid = false;
                                     MyObjectBuilder_CubeBlock origBlock = block.GetObjectBuilder(true);
                                     MyObjectBuilder_CubeBlock newBlock = block.GetObjectBuilder(true);
@@ -126,6 +140,13 @@ namespace JasperGaming.TritaniumConversion
                                     {
                                         grid.RemoveBlock(block, false);
                                         grid.AddBlock(origBlock, false);
+                                    }
+                                }
+                                else
+                                {
+                                    if (debug)
+                                    {
+                                        MyAPIGateway.Utilities.ShowMessage("", "block not converted = " + def);
                                     }
                                 }
 

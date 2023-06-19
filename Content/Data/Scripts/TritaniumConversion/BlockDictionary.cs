@@ -125,8 +125,8 @@ namespace JasperGaming.TritaniumConversion
             // 2x1
             {"SmallBlockArmorSlope2Base", "Tritanium_SmallBlockArmorSlope2Base" },
             {"SmallBlockArmorSlope2Tip", "Tritanium_SmallBlockArmorSlope2Tip" },
-            {"SmallHalfArmorBlock", "Tritanium_SmallHalfArmorBlock" },
-            {"SmallHalfSlopeArmorBlock", "Tritanium_SmallHalfSlopeArmorBlock" },
+            {"HalfArmorBlock", "Tritanium_HalfArmorBlock" },
+            {"HalfSlopeArmorBlock", "Tritanium_HalfSlopeArmorBlock" },
             {"SmallBlockArmorHalfSlopeCorner", "Tritanium_SmallBlockArmorHalfSlopeCorner" },
             {"SmallBlockArmorHalfCorner", "Tritanium_SmallBlockArmorHalfCorner" },
             {"SmallBlockArmorHalfSlopedCorner", "Tritanium_SmallBlockArmorHalfSlopedCorner" },
@@ -147,7 +147,7 @@ namespace JasperGaming.TritaniumConversion
             {"SmallBlockArmorSquareSlopedCornerTipInv", "Tritanium_SmallBlockArmorSquareSlopedCornerTipInv" },
             {"SmallBlockArmorSlopedCornerBase", "Tritanium_SmallBlockArmorSlopedCornerBase" },
             {"SmallBlockArmorSlopedCorner", "Tritanium_SmallBlockArmorSlopedCorner" },
-            {"LargeBlockArmorHalfSlopedCornerBase", "Tritanium_SmallBlockArmorHalfSlopedCornerBase" },
+            {"SmallBlockArmorHalfSlopedCornerBase", "Tritanium_SmallBlockArmorHalfSlopedCornerBase" },
 
             // Round
             {"SmallBlockArmorRoundSlope", "Tritanium_SmallBlockArmorRoundSlope" },
@@ -158,9 +158,145 @@ namespace JasperGaming.TritaniumConversion
             // Large grid heavy armor
             //
 
+            // Panels
+            {"LargeArmorPanelHeavy", "LargeArmorPanelTritanium" },
+            {"LargeArmorSlopedPanelHeavy", "LargeArmorSlopedPanelTritanium" },
+            {"LargeArmorSlopedSidePanelHeavy", "LargeArmorSlopedSidePanelTritanium" },
+            {"LargeArmor2x1SlopedPanelHeavy", "LargeArmor2x1SlopedPanelTritanium" },
+            {"LargeArmor2x1SlopedPanelTipHeavy", "LargeArmor2x1SlopedPanelTipTritanium" },
+            {"LargeArmor2x1SlopedSideBasePanelHeavy", "LargeArmor2x1SlopedSideBasePanelTritanium" },
+            {"LargeArmor2x1SlopedSideTipPanelHeavy", "LargeArmor2x1SlopedSideTipPanelTritanium" },
+            {"LargeArmor2x1SlopedSideBasePanelHeavyInv", "LargeArmor2x1SlopedSideBasePanelTritaniumInv" },
+            {"LargeArmor2x1SlopedSideTipPanelHeavyInv", "LargeArmor2x1SlopedSideTipPanelTritaniumInv" },
+            {"LargeArmorHalfSlopedPanelHeavy", "LargeArmorHalfSlopedPanelTritanium" },
+            {"LargeArmor2x1HalfSlopedPanelHeavyRight", "LargeArmor2x1HalfSlopedPanelTritaniumRight" },
+            {"LargeArmor2x1HalfSlopedTipPanelHeavyRight", "LargeArmor2x1HalfSlopedTipPanelTritaniumRight" },
+            {"LargeArmor2x1HalfSlopedPanelHeavyLeft", "LargeArmor2x1HalfSlopedPanelTritaniumLeft" },
+            {"LargeArmor2x1HalfSlopedTipPanelHeavyLeft", "LargeArmor2x1HalfSlopedTipPanelTritaniumLeft" },
+            //{"LargeArmorHalfCenterPanelHeavy", "NoEquivalent" },
+            {"LargeArmorHalfPanelHeavy", "LargeArmorHalfPanelTritanium" },
+            {"LargeArmorQuarterPanelHeavy", "LargeArmorQuarterPanelTritanium" },
+            //{"LargeArmorCenterPanelHeavy", "NoEquivalent" },
+
+            // Transitions
+            {"LargeBlockHeavyArmorSlopeTransitionBase", "Tritanium_LargeBlockArmorSlopeTransitionBase" },
+            {"LargeBlockHeavyArmorSlopeTransition", "Tritanium_LargeBlockArmorSlopeTransition" },
+            {"LargeBlockHeavyArmorSlopeTransitionTip", "Tritanium_LargeBlockArmorSlopeTransitionTip" },
+            {"LargeBlockHeavyArmorSlopeTransitionBaseMirrored", "Tritanium_LargeBlockArmorSlopeTransitionBaseMirrored" },
+            {"LargeBlockHeavyArmorSlopeTransitionMirrored", "Tritanium_LargeBlockArmorSlopeTransitionMirrored" },
+            {"LargeBlockHeavyArmorSlopeTransitionTipMirrored", "Tritanium_LargeBlockArmorSlopeTransitionTipMirrored" },
+
+            // Cubes
+            {"LargeHeavyBlockArmorBlock", "Tritanium_LargeBlockArmorBlock" },
+            {"LargeHeavyBlockArmorSlope", "Tritanium_LargeBlockArmorSlope" },
+            {"LargeHeavyBlockArmorCorner", "Tritanium_LargeBlockArmorCorner" },
+            {"LargeHeavyBlockArmorCornerInv", "Tritanium_LargeBlockArmorCornerInv" },
+            {"LargeBlockHeavyArmorCornerSquare", "Tritanium_LargeBlockArmorCornerSquare" },
+            {"LargeBlockHeavyArmorCornerSquareInverted", "Tritanium_LargeBlockArmorCornerSquareInverted" },
+
+            // 2x1
+            {"LargeHeavyBlockArmorSlope2Base", "Tritanium_LargeBlockArmorSlope2Base" },
+            {"LargeHeavyBlockArmorSlope2Tip", "Tritanium_LargeBlockArmorSlope2Tip" },
+            {"LargeHeavyHalfArmorBlock", "Tritanium_LargeHalfArmorBlock" },
+            {"LargeHeavyHalfSlopeArmorBlock", "Tritanium_LargeHalfSlopeArmorBlock" },
+            {"LargeBlockHeavyArmorHalfSlopeCorner", "Tritanium_LargeBlockArmorHalfSlopeCorner" },
+            {"LargeBlockHeavyArmorHalfCorner", "Tritanium_LargeBlockArmorHalfCorner" },
+            {"LargeBlockHeavyArmorHalfSlopedCorner", "Tritanium_LargeBlockArmorHalfSlopedCorner" },
+
+            // 2x1 Corner
+            {"LargeHeavyBlockArmorCorner2Base", "Tritanium_LargeBlockArmorCorner2Base" },
+            {"LargeHeavyBlockArmorCorner2Tip", "Tritanium_LargeBlockArmorCorner2Tip" },
+            {"LargeHeavyBlockArmorInvCorner2Base", "Tritanium_LargeBlockArmorInvCorner2Base" },
+            {"LargeHeavyBlockArmorInvCorner2Tip", "Tritanium_LargeBlockArmorInvCorner2Tip" },
+            {"LargeBlockHeavyArmorHalfSlopeCornerInverted", "Tritanium_LargeBlockArmorHalfSlopeCornerInverted" },
+            {"LargeBlockHeavyArmorHalfSlopeInverted", "Tritanium_LargeBlockArmorHalfSlopeInverted" },
+
+            // 2x1 Corner Slope
+            {"LargeBlockHeavyArmorSlopedCornerTip", "Tritanium_LargeBlockArmorSlopedCornerTip" },
+            {"LargeBlockHeavyArmorRaisedSlopedCorner", "Tritanium_LargeBlockArmorRaisedSlopedCorner" },
+            {"LargeBlockHeavyArmorSquareSlopedCornerTip", "Tritanium_LargeBlockArmorSquareSlopedCornerTip" },
+            {"LargeBlockHeavyArmorSquareSlopedCornerBase", "Tritanium_LargeBlockArmorSquareSlopedCornerBase" },
+            {"LargeBlockHeavyArmorSquareSlopedCornerTipInv", "Tritanium_LargeBlockArmorSquareSlopedCornerTipInv" },
+            {"LargeBlockHeavyArmorSlopedCornerBase", "Tritanium_LargeBlockArmorSlopedCornerBase" },
+            {"LargeBlockHeavyArmorSlopedCorner", "Tritanium_LargeBlockArmorSlopedCorner" },
+            {"LargeBlockHeavyArmorHalfSlopedCornerBase", "Tritanium_LargeBlockArmorHalfSlopedCornerBase" },
+
+            // Round
+            {"LargeHeavyBlockArmorRoundSlope", "Tritanium_LargeBlockArmorRoundSlope" },
+            {"LargeHeavyBlockArmorRoundCorner", "Tritanium_LargeBlockArmorRoundCorner" },
+            {"LargeHeavyBlockArmorRoundCornerInv", "Tritanium_LargeBlockArmorRoundCornerInv" },
+
             //
             // Small grid heavy armor
             //
+
+            // Panels
+            {"SmallArmorPanelHeavy", "SmallArmorPanelTritanium" },
+            {"SmallArmorSlopedPanelHeavy", "SmallArmorSlopedPanelTritanium" },
+            {"SmallArmorSlopedSidePanelHeavy", "SmallArmorSlopedSidePanelTritanium" },
+            {"SmallArmor2x1SlopedPanelHeavy", "SmallArmor2x1SlopedPanelTritanium" },
+            {"SmallArmor2x1SlopedPanelTipHeavy", "SmallArmor2x1SlopedPanelTipTritanium" },
+            {"SmallArmor2x1SlopedSideBasePanelHeavy", "SmallArmor2x1SlopedSideBasePanelTritanium" },
+            {"SmallArmor2x1SlopedSideTipPanelHeavy", "SmallArmor2x1SlopedSideTipPanelTritanium" },
+            {"SmallArmor2x1SlopedSideBasePanelHeavyInv", "SmallArmor2x1SlopedSideBasePanelTritaniumInv" },
+            {"SmallArmor2x1SlopedSideTipPanelHeavyInv", "SmallArmor2x1SlopedSideTipPanelTritaniumInv" },
+            {"SmallArmorHalfSlopedPanelHeavy", "SmallArmorHalfSlopedPanelTritanium" },
+            {"SmallArmor2x1HalfSlopedPanelHeavyRight", "SmallArmor2x1HalfSlopedPanelTritaniumRight" },
+            {"SmallArmor2x1HalfSlopedTipPanelHeavyRight", "SmallArmor2x1HalfSlopedTipPanelTritaniumRight" },
+            {"SmallArmor2x1HalfSlopedPanelHeavyLeft", "SmallArmor2x1HalfSlopedPanelTritaniumLeft" },
+            {"SmallArmor2x1HalfSlopedTipPanelHeavyLeft", "SmallArmor2x1HalfSlopedTipPanelTritaniumLeft" },
+            //{"SmallArmorHalfCenterPanelHeavy", "NoEquivalent" },
+            {"SmallArmorHalfPanelHeavy", "SmallArmorHalfPanelTritanium" },
+            {"SmallArmorQuarterPanelHeavy", "SmallArmorQuarterPanelTritanium" },
+            //{"SmallArmorCenterPanelHeavy", "NoEquivalent" },
+
+            // Transitions
+            {"SmallBlockHeavyArmorSlopeTransitionBase", "Tritanium_SmallBlockArmorSlopeTransitionBase" },
+            {"SmallBlockHeavyArmorSlopeTransition", "Tritanium_SmallBlockArmorSlopeTransition" },
+            {"SmallBlockHeavyArmorSlopeTransitionTip", "Tritanium_SmallBlockArmorSlopeTransitionTip" },
+            {"SmallBlockHeavyArmorSlopeTransitionBaseMirrored", "Tritanium_SmallBlockArmorSlopeTransitionBaseMirrored" },
+            {"SmallBlockHeavyArmorSlopeTransitionMirrored", "Tritanium_SmallBlockArmorSlopeTransitionMirrored" },
+            {"SmallBlockHeavyArmorSlopeTransitionTipMirrored", "Tritanium_SmallBlockArmorSlopeTransitionTipMirrored" },
+
+            // Cubes
+            {"SmallHeavyBlockArmorBlock", "Tritanium_SmallBlockArmorBlock" },
+            {"SmallHeavyBlockArmorSlope", "Tritanium_SmallBlockArmorSlope" },
+            {"SmallHeavyBlockArmorCorner", "Tritanium_SmallBlockArmorCorner" },
+            {"SmallHeavyBlockArmorCornerInv", "Tritanium_SmallBlockArmorCornerInv" },
+            {"SmallBlockHeavyArmorCornerSquare", "Tritanium_SmallBlockArmorCornerSquare" },
+            {"SmallBlockHeavyArmorCornerSquareInverted", "Tritanium_SmallBlockArmorCornerSquareInverted" },
+
+            // 2x1
+            {"SmallHeavyBlockArmorSlope2Base", "Tritanium_SmallBlockArmorSlope2Base" },
+            {"SmallHeavyBlockArmorSlope2Tip", "Tritanium_SmallBlockArmorSlope2Tip" },
+            {"HeavyHalfArmorBlock", "Tritanium_HalfArmorBlock" },
+            {"HeavyHalfSlopeArmorBlock", "Tritanium_HalfSlopeArmorBlock" },
+            {"SmallBlockHeavyArmorHalfSlopeCorner", "Tritanium_SmallBlockArmorHalfSlopeCorner" },
+            {"SmallBlockHeavyArmorHalfCorner", "Tritanium_SmallBlockArmorHalfCorner" },
+            {"SmallBlockHeavyArmorHalfSlopedCorner", "Tritanium_SmallBlockArmorHalfSlopedCorner" },
+
+            // 2x1 Corner
+            {"SmallHeavyBlockArmorCorner2Base", "Tritanium_SmallBlockArmorCorner2Base" },
+            {"SmallHeavyBlockArmorCorner2Tip", "Tritanium_SmallBlockArmorCorner2Tip" },
+            {"SmallHeavyBlockArmorInvCorner2Base", "Tritanium_SmallBlockArmorInvCorner2Base" },
+            {"SmallHeavyBlockArmorInvCorner2Tip", "Tritanium_SmallBlockArmorInvCorner2Tip" },
+            {"SmallBlockHeavyArmorHalfSlopeCornerInverted", "Tritanium_SmallBlockArmorHalfSlopeCornerInverted" },
+            {"SmallBlockHeavyArmorHalfSlopeInverted", "Tritanium_SmallBlockArmorHalfSlopeInverted" },
+
+            // 2x1 Corner Slope
+            {"SmallBlockHeavyArmorSlopedCornerTip", "Tritanium_SmallBlockArmorSlopedCornerTip" },
+            {"SmallBlockHeavyArmorRaisedSlopedCorner", "Tritanium_SmallBlockArmorRaisedSlopedCorner" },
+            {"SmallBlockHeavyArmorSquareSlopedCornerTip", "Tritanium_SmallBlockArmorSquareSlopedCornerTip" },
+            {"SmallBlockHeavyArmorSquareSlopedCornerBase", "Tritanium_SmallBlockArmorSquareSlopedCornerBase" },
+            {"SmallBlockHeavyArmorSquareSlopedCornerTipInv", "Tritanium_SmallBlockArmorSquareSlopedCornerTipInv" },
+            {"SmallBlockHeavyArmorSlopedCornerBase", "Tritanium_SmallBlockArmorSlopedCornerBase" },
+            {"SmallBlockHeavyArmorSlopedCorner", "Tritanium_SmallBlockArmorSlopedCorner" },
+            {"SmallBlockHeavyArmorHalfSlopedCornerBase", "Tritanium_SmallBlockArmorHalfSlopedCornerBase" },
+
+            // Round
+            {"SmallHeavyBlockArmorRoundSlope", "Tritanium_SmallBlockArmorRoundSlope" },
+            {"SmallHeavyBlockArmorRoundCorner", "Tritanium_SmallBlockArmorRoundCorner" },
+            {"SmallHeavyBlockArmorRoundCornerInv", "Tritanium_SmallBlockArmorRoundCornerInv" },
 
             //
             // Windows
