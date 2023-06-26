@@ -29,10 +29,10 @@ namespace JasperGaming.TritaniumConversion
             {"LargeArmor2x1HalfSlopedTipPanelLightRight", "LargeArmor2x1HalfSlopedTipPanelTritaniumRight" },
             {"LargeArmor2x1HalfSlopedPanelLightLeft", "LargeArmor2x1HalfSlopedPanelTritaniumLeft" },
             {"LargeArmor2x1HalfSlopedTipPanelLightLeft", "LargeArmor2x1HalfSlopedTipPanelTritaniumLeft" },
-            //{"LargeArmorHalfCenterPanelLight", "NoEquivalent" },
+            {"LargeArmorHalfCenterPanelLight", "LargeArmorHalfCenterPanelTritanium" },
             {"LargeArmorHalfPanelLight", "LargeArmorHalfPanelTritanium" },
             {"LargeArmorQuarterPanelLight", "LargeArmorQuarterPanelTritanium" },
-            //{"LargeArmorCenterPanelLight", "NoEquivalent" },
+            {"LargeArmorCenterPanelLight", "LargeArmorCenterPanelTritanium" },
 
             // Transitions
             {"LargeBlockArmorSlopeTransitionBase", "Tritanium_LargeBlockArmorSlopeTransitionBase" },
@@ -101,10 +101,10 @@ namespace JasperGaming.TritaniumConversion
             {"SmallArmor2x1HalfSlopedTipPanelLightRight", "SmallArmor2x1HalfSlopedTipPanelTritaniumRight" },
             {"SmallArmor2x1HalfSlopedPanelLightLeft", "SmallArmor2x1HalfSlopedPanelTritaniumLeft" },
             {"SmallArmor2x1HalfSlopedTipPanelLightLeft", "SmallArmor2x1HalfSlopedTipPanelTritaniumLeft" },
-            //{"SmallArmorHalfCenterPanelLight", "NoEquivalent" },
+            {"SmallArmorHalfCenterPanelLight", "SmallArmorHalfCenterPanelTritanium" },
             {"SmallArmorHalfPanelLight", "SmallArmorHalfPanelTritanium" },
             {"SmallArmorQuarterPanelLight", "SmallArmorQuarterPanelTritanium" },
-            //{"SmallArmorCenterPanelLight", "NoEquivalent" },
+            {"SmallArmorCenterPanelLight", "SmallArmorCenterPanelTritanium" },
 
             // Transitions
             {"SmallBlockArmorSlopeTransitionBase", "Tritanium_SmallBlockArmorSlopeTransitionBase" },
@@ -173,10 +173,10 @@ namespace JasperGaming.TritaniumConversion
             {"LargeArmor2x1HalfSlopedTipPanelHeavyRight", "LargeArmor2x1HalfSlopedTipPanelTritaniumRight" },
             {"LargeArmor2x1HalfSlopedPanelHeavyLeft", "LargeArmor2x1HalfSlopedPanelTritaniumLeft" },
             {"LargeArmor2x1HalfSlopedTipPanelHeavyLeft", "LargeArmor2x1HalfSlopedTipPanelTritaniumLeft" },
-            //{"LargeArmorHalfCenterPanelHeavy", "NoEquivalent" },
+            {"LargeArmorHalfCenterPanelHeavy", "LargeArmorHalfCenterPanelTritanium" },
             {"LargeArmorHalfPanelHeavy", "LargeArmorHalfPanelTritanium" },
             {"LargeArmorQuarterPanelHeavy", "LargeArmorQuarterPanelTritanium" },
-            //{"LargeArmorCenterPanelHeavy", "NoEquivalent" },
+            {"LargeArmorCenterPanelHeavy", "LargeArmorCenterPanelTritanium" },
 
             // Transitions
             {"LargeBlockHeavyArmorSlopeTransitionBase", "Tritanium_LargeBlockArmorSlopeTransitionBase" },
@@ -245,10 +245,10 @@ namespace JasperGaming.TritaniumConversion
             {"SmallArmor2x1HalfSlopedTipPanelHeavyRight", "SmallArmor2x1HalfSlopedTipPanelTritaniumRight" },
             {"SmallArmor2x1HalfSlopedPanelHeavyLeft", "SmallArmor2x1HalfSlopedPanelTritaniumLeft" },
             {"SmallArmor2x1HalfSlopedTipPanelHeavyLeft", "SmallArmor2x1HalfSlopedTipPanelTritaniumLeft" },
-            //{"SmallArmorHalfCenterPanelHeavy", "NoEquivalent" },
+            {"SmallArmorHalfCenterPanelHeavy", "SmallArmorHalfCenterPanelTritanium" },
             {"SmallArmorHalfPanelHeavy", "SmallArmorHalfPanelTritanium" },
             {"SmallArmorQuarterPanelHeavy", "SmallArmorQuarterPanelTritanium" },
-            //{"SmallArmorCenterPanelHeavy", "NoEquivalent" },
+            {"SmallArmorCenterPanelHeavy", "SmallArmorCenterPanelTritanium" },
 
             // Transitions
             {"SmallBlockHeavyArmorSlopeTransitionBase", "Tritanium_SmallBlockArmorSlopeTransitionBase" },
